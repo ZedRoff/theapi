@@ -47,7 +47,7 @@ footer {
 
   display: flex;
   justify-content: flex-end;
-  margin-top: 22%;
+  margin-top: 20%;
 }
 
 input {
@@ -152,6 +152,22 @@ select:hover {
   color: #7656FF;
   font-size: 35px;
 }
+#platform {
+   color: grey;
+  text-align: center;
+}
+#solo {
+  color: #7656FF;
+  font-size: 35px;
+}
+#duo {
+  color: #7656FF;
+  font-size: 35px;
+}
+#squad {
+  color: #7656FF;
+  font-size: 35px;
+}
 .flexer {
   display: flex;
   flex-flow: row wrap;
@@ -203,4 +219,52 @@ button:active {
 a {
   text-decoration: none;
   color: inherit;
+}
+.arranger {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+ 
+  margin-top: 5%;
+}
+.link-main {
+ 
+  
+}
+.btn-l {
+  background-color: #FF6464;
+  padding: 25px;
+  
+  
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 100;
+  border-radius: 25px;
+  width: 250px;
+}
+.btn-r {
+  background-color: #6D55FF;
+    padding: 25px;
+  
+    border: none;
+  outline: none;
+  color: white;
+  font-weight: 100;
+  border-radius: 25px;
+  width: 250px;
+}
+.title-princ {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+.center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
 }
