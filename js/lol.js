@@ -13,7 +13,7 @@ function scrape() {
   loadingtag.innerHTML = "Loading ...";
   loadingtag.style.marginTop = "10%";
   fetch(
-    `https://theapi.glitch.me/api/v1/getstats/${
+    `https://theapi.glitch.me/api/v1/lol/getstats/${
       document.getElementById("sel").value
     }/${document.getElementById("ine").value}`
   )
