@@ -4,7 +4,9 @@ body {
   font-family: "Do Hyeon", sans-serif;
   background-color: #222747;
 }
-
+::selection {
+  background: #735CFE;
+}
 .checker {
   background-color: #e2e2e2;
 
@@ -36,17 +38,17 @@ h2 {
   border-bottom-right-radius: 15px;
   box-shadow: 6px 6px 6px black;
   font-size: 35px;
+  margin-right: 
 }
 footer {
   padding: 35px;
   color: white;
 
   background: #6969FF;
-  width: 95%;
-  margin: 0 auto;
+  border-top: 10px groove black;
 
-  display: flex;
-  justify-content: flex-end;
+
+ 
   margin-top: 20%;
 }
 
@@ -189,10 +191,15 @@ select:hover {
 }
 button {
   cursor: pointer;
-  transition: 0.2s transform;
+  transition: 0.4s transform;
+  transition: 0.4s box-shadow;
+  
 }
 button:active {
   transform: scale(0.9);
+}
+button:hover {
+  box-shadow: 6px 6px 6px black;
 }
 .separator {
   display: flex;
@@ -227,11 +234,9 @@ a {
   width: 100%;
  
   margin-top: 5%;
-}
-.link-main {
- 
   
 }
+
 .btn-l {
   background-color: #FF6464;
   padding: 25px;
@@ -243,6 +248,8 @@ a {
   font-weight: 100;
   border-radius: 25px;
   width: 250px;
+  font-size: 25px;
+    margin-top: 5%;
 }
 .btn-r {
   background-color: #6D55FF;
@@ -254,12 +261,15 @@ a {
   font-weight: 100;
   border-radius: 25px;
   width: 250px;
+   font-size: 25px;
+  margin-top: 5%;
 }
 .title-princ {
   text-align: center;
   color: white;
   font-weight: bold;
   font-size: 35px;
+  border-bottom: 5px dashed white;
 }
 .center {
   display: flex;
@@ -267,4 +277,18 @@ a {
   justify-content: center;
   align-content: center;
   margin-top: 5%;
+}
+.icon-left {
+  width: 100px;
+  margin-top: -10px;
+  margin-right: auto;
+  margin-left: 0px;
+}
+.icon-right {
+margin-left: auto;
+  margin-right: 0px;
+  width: 50px;
+  border-radius: 100%;
+  display: block;
+  margin-top: -25px;
 }
