@@ -18,7 +18,9 @@
     "riot-lol": "^1.6.0",
     "opgg-mmr": "^1.0.1",
     "opgg-ladder": "^1.0.2",
-    "fortnite": "^4.3.2"
+    "fortnite": "^4.3.2",
+    "ejs": "^3.1.4",
+    "body-parser": "^1.19.0"
   },
   "engines": {
     "node": "12.x"
