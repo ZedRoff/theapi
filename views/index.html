@@ -25,78 +25,21 @@
     <div class="title_top">
       The API
     </div>
-
-    <div class="separator">
-      <div class="cont">
-        <input type="text" placeholder="Username" id="ine" />
-
-        <select id="sel">
-          <option>EUW</option>
-          <option>KR</option>
-          <option>OCE</option>
-          <option>JP</option>
-          <option>EUNE</option>
-          <option>LAN</option>
-          <option>BR</option>
-          <option>LAS</option>
-          <option>RU</option>
-          <option>TR</option>
-        </select>
-
-        <button onclick="scrape()" class="checker">
-          <img
-            src="https://cdn.glitch.com/7d7f7882-8423-4732-8921-66c2fbbf9810%2Fsearch.png?v=1598299292615"
-            class="search"
-          />
-        </button>
-        <br />
-        <p id="loading"></p>
-      </div>
-      <div class="container" id="container">
-        <div class="child">
-          <img
-            src="https://cdn.glitch.com/7d7f7882-8423-4732-8921-66c2fbbf9810%2Flol.jpg?v=1598293398056"
-            class="banner"
-          />
-        </div>
-
-        <div class="child">
-          <img id="icon" />
-          <h1 id="name"></h1>
-          <p id="rank"></p>
-
-          <div class="flexer">
-            <div class="child-flexer">
-              <p id="level"></p>
-              <p class="simple-para">
-                Level
-              </p>
-            </div>
-
-            <div class="child-flexer">
-              <p id="ratio"></p>
-
-              <p class="simple-para">
-                Ratio
-              </p>
-            </div>
-
-            <div class="child-flexer">
-              <p id="lp"></p>
-
-              <p class="simple-para">
-                LP
-              </p>
-            </div>
-          </div>
-          <a target="_blank">
-            <button id="sub">
-              See on OP.GG
-            </button></a
-          >
-        </div>
-      </div>
+    <div class="center">
+      <h1 class="title-princ">
+        Where do you want to go ?
+      </h1>
     </div>
+
+    <div class="arranger">
+      <a href="/lol" class="link-main"><button class="btn-l">
+        LoL
+        </button></a>
+        <a href="/fortnite" class="link-main"><button class="btn-r">
+        Fortnite
+        </button></a>
+    </div>
+  
     <footer>Made with <3 by ZedRoff &copy</footer>
     <script src="/script.js"></script>
   </body>
