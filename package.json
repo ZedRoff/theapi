@@ -17,7 +17,8 @@
     "op.gg-api": "^1.0.0",
     "riot-lol": "^1.6.0",
     "opgg-mmr": "^1.0.1",
-    "opgg-ladder": "^1.0.2"
+    "opgg-ladder": "^1.0.2",
+    "fortnite": "^4.3.2"
   },
   "engines": {
     "node": "12.x"
