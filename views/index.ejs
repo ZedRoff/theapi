@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+    <title>The API | Home</title>
+     <%- include('../components/head.ejs') %>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to use this app.
+    </noscript>
+    <!-- Not importing maintitle like other pages, because we don't want to exit from the main page -->
+    <div class="title_top">
+      The API
+    </div>
+    <div class="center">
+      <h1 class="title-princ">
+        Where do you want to go ?
+      </h1>
+    </div>
+
+    <div class="arranger">
+      <a href="/lol" class="link-main"><button class="btn-l">
+        LoL
+        </button></a>
+        <a href="/fortnite" class="link-main"><button class="btn-r">
+        Fortnite
+        </button></a>
+    </div>
+  
+  <%- include('../components/footer.ejs') %>
+    <script src="/script.js"></script>
+  </body>
+</html>

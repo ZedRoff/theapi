@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+    <title>The API | Fortnite</title>
+   <%- include('../components/head.ejs') %>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to use this app.
+    </noscript>
+ 
+    <div class="title_top">
+       <%- include('../components/maintitle.ejs') %>
+
+    <div class="separator">
+      <div class="cont">
+        <input type="text" placeholder="Username" id="ine" />
+
+        <select id="sel">
+          <option>PC</option>
+          <option>XBL</option>
+          <option>PSN</option>
+         
+        </select>
+
+        <button onclick="scrape()" class="checker">
+          <img
+            src="https://cdn.glitch.com/7d7f7882-8423-4732-8921-66c2fbbf9810%2Fsearch.png?v=1598299292615"
+            class="search"
+          />
+        </button>
+        <br />
+        <p id="loading"></p>
+      </div>
+    <%- include('../components/fortnitecard.ejs') %>
+    </div>
+  <%- include('../components/footer.ejs') %>
+    <script src="/fortnite.js"></script>
+  </body>
+</html>
